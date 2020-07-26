@@ -27,24 +27,22 @@ body {
   margin: 0;
 }
 
-{change style after this}
-
-.bg {
-  background-size: cover;
-  height: 500px;
+cat
+{change style after this btu before t.text image
 }
 
 .textimgpos {
-  position: relative
-  bottom: 50%;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, 0%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
 }
-.pwhite {
-  color: red;
-}
+form {
+ padding: 30px;
+  }
 
-.frontpagebottom {
-  text-align: center;
+.white {
+  color: white;
 }
