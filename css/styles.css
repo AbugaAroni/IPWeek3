@@ -1,11 +1,40 @@
-.design {
+#design {
   display: none;
 }
-.development{
+
+#development{
   display: none;
 }
-.pmanagement{
+
+#pmanagement{
   display: none;
+}
+
+#hidedesign{
+  display: grid;
+  place-items: center;
+}
+
+#hidedevelopment{
+  display: grid;
+  place-items: center;
+}
+
+#hidepmanagement{
+  display: grid;
+  place-items: center;
+}
+
+.clickabledesign {
+  cursor: pointer;
+      }
+
+.clickabledevelopment {
+  cursor: pointer;
+            }
+
+.clickablepmanagement {
+  cursor: pointer;
 }
 
 .himg {
