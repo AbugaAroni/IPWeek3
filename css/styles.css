@@ -48,12 +48,8 @@ textarea {
   color: transparent;
 }
 
-​textarea:focus {
-  outline: 1px solid blue;
-}​
-
 .logo2 {
-  margin-left: 50%;
+  margin-left: 45.5%;
 }
 
 .logo {
