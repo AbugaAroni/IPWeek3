@@ -35,7 +35,7 @@ div {
   object-fit: contain;
 }
 .col-md {
-  border: 24px solid black;
+  border: 24px solid white;
   display: grid;
   place-items: center;
 }
@@ -72,13 +72,37 @@ body {
   width: 120%;
 }
 
-.input-field [type=text] {
-      color: white;
+input[type=text]:focus {
+  background-color: white;
 }
 
 textarea {
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
   background: transparent;
   color: transparent;
+  padding: 1px;
+  margin: 1px 0;
+  outline: solid white;
+  background: transparent;
+}
+
+input {
+  padding: 1px;
+  margin: 1px 0;
+  outline: solid white;
+  background: transparent;
+}
+::placeholder {
+  color: white;
+
+}
+input:focus,
+input:active {
+  border-color: solid;
+  border-bottom: 2px solid white;
 }
 
 form {
