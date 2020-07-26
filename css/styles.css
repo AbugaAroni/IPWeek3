@@ -25,7 +25,6 @@ div {
 }
 
 .bg {
-  background-image: url("../assets/backgrounds/h_img.jpg");
   background-size: cover;
   height: 500px;
 }
