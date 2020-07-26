@@ -1,28 +1,33 @@
 div {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 100%;
-  margin: 10px;
   position: relative;
   object-fit: contain;
 }
+.col-md {
+  border: 24px solid white;
+}
+.noborder {
+  border: 0px;
+  float: left
+}
 
-.frontpage {
-  height: 100%;
-  width: 100%;
-}
-.column {
-  float: left;
+h1, h2, h3, p {
+  text-align: center;
 }
 
-.bgimg {
-  height: 100%;
+.bimg {
   width: 100%;
-  z-index: -1;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
 }
+img {
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+
+{change style after this}
 
 .bg {
   background-size: cover;
