@@ -1,0 +1,46 @@
+div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin: 10px;
+  position: relative;
+  object-fit: contain;
+}
+
+.frontpage {
+  height: 100%;
+  width: 100%;
+}
+.column {
+  float: left;
+}
+
+.bgimg {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+.textimgpos {
+  position: relative
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0%);
+}
+.pwhite {
+  color: red;
+}
+
+.frontpagebottom {
+  text-align: center;
+}
