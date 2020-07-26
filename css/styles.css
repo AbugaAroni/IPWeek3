@@ -114,14 +114,15 @@ body {
 input[type=text]:focus {
   background-color: white;
 }
+textarea:focus {
+  background-color: white;
+}
 
 textarea {
   border-top-style: solid;
   border-right-style: solid;
   border-left-style: solid;
   border-bottom-style: solid;
-  background: transparent;
-  color: transparent;
   padding: 1px;
   margin: 1px 0;
   outline: solid white;
@@ -136,7 +137,6 @@ input {
 }
 ::placeholder {
   color: white;
-
 }
 input:focus,
 input:active {
@@ -150,4 +150,8 @@ form {
 
 .white {
   color: white;
+}
+
+.bold {
+  font-weight: bold;
 }
