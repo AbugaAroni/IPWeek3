@@ -124,6 +124,7 @@ body {
 input[type=text]:focus {
   background-color: white;
 }
+
 textarea:focus {
   background-color: white;
 }
@@ -147,14 +148,17 @@ input {
   background: transparent;
   width: 100%;
 }
+
 ::placeholder {
   color: white;
 }
+
 input:focus,
 input:active {
   border-color: solid;
   border-bottom: 2px solid white;
 }
+
 
 form {
  padding: 30px;
@@ -169,9 +173,10 @@ form {
 }
 
 @media screen and (max-width: 1100px) {
-.logo3 {
+  .logo3 {
   width: 12%;
 }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -194,6 +199,10 @@ form {
   .logo3 {
     width: 20%;
   }
+  .logo5 {
+  width: 200%;
+  }
+
   }
 
 @media screen and (max-width: 800px) {
@@ -209,5 +218,8 @@ form {
   }
   .logo3 {
     width: 15%;
+  }
+  .logo5 {
+  width: 90%;
   }
 }
