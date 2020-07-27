@@ -1,8 +1,7 @@
 //business logic
-  function messagerecieved (name) {
-  alert("Dear " + Name + ", we have recieved your message thank you for reachingout to us");
-}
-
+var name;
+var email;
+var message;
 
 //user logic
 $(document).ready(function() {
@@ -55,14 +54,12 @@ $(document).ready(function() {
 
 //collect info from the form
 
-  $("#inputfield").submit(function() {
-    $("form").submit(function(){
-        event.preventDefault();
-        var name = $("input#name").val();
-        var email = $("input#email").val();
-        var message = $("input#message").val();
-        alert("Dear " + name + ", we have recieved your message thank you for reaching out to us");
-
+ $("form").submit(function(){
+  event.preventDefault();
+  name = $("input#name").val();
+  email = $("input#email").val();
+  message = $("input#message").val();
+  alert("Dear " + name + ", we have recieved your message thank you for reaching out to us");
 });
 
  });
