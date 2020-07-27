@@ -3,7 +3,7 @@
 ### Author: [Abuga Aroni] (https://github.com/AbugaAroni/)
 
 ### Description
-This is a web application for Delani studios. It is a simply webpage that showcases some of their projects and advertises their websites.
+This is a web application for Delani studios. It is a webpage that showcases some of their projects and advertises their websites.
 
 ### Features
 * Icons and pictures that display information when you click on them through jquery.
