@@ -305,7 +305,7 @@ form {
   p {
     font-size: large;
   }
-  .simg {
+  .simg, .cimg {
     height: 500px;
 
     background-position: center;
